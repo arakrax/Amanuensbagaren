@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content= "width = device-width, initial-scale = 1, maximum-scale = 2">
+    <meta name="description" id="meta-description" content="Hitta ett detaljerat brödrecept från Amanuensbagaren. Sidan innehåller steg-för-steg-instruktioner, ingredienslista och näringsinformation för att du ska lyckas.">
+    <!-- imports -->
+    <link rel="stylesheet" href="../style/reset.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../js/apiConnection.js" type="module"></script>
+    <script src="../js/script.js" type="module"></script>
+    <script src="../js/createRecepiePage.js" type="module"></script>
+    <!--  end imports -->
+
+    <title> | Amanuensbagaren</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <!-- header med sitenamn -->
+      <header>
+        <picture id="header-image">
+          <source media="(min-width:768px)" srcset="../media/images/hog_med_brod_liten.jpg">
+          <img src="assets/media/images/vetelimpa_genomskarning.jpg" alt="Nybakad bröd placerat på arbetsbänk.">
+        </picture>
+
+        <div id="page-title">
+          <h1>Bröd & brödbakning</h1>
+          <p id="subtitle">från Amanuensbagaren</p>
+        </div>
+
+        
+        <img src="../media/icons/menu_icon.png" alt="Ikon för att visa/dölja huvudmenyn." id="menu-icon">
+      </header>
+
+
+      <!-- nav-block med länkar till alla sidor -->
+      <nav>
+        <ul id="nav-menu">
+          <li><a href="../../index.html">Startsida</a></li>
+          <li><a href="./recept.html">Recept</a></li>
+          <li class="dropdown" id="nav-btn1"><button class="dropdown-button">Historia</button>
+            <ul class="dropdown-content">
+              <li><a href="./historia.html#sec:oversikt">Översikt</a></li>
+              <li><a href="./historia.html#sec:start">Äldre stenåldern till antiken</a></li>
+              <li><a href="./historia.html#industrialism">Den industriella revolutionen</a></li>
+              <li><a href="./historia.html#sec:idag">Världskrigen och 1900-talet</a></li>
+              <li><a href="./historia.html#sec:sverige">Svensk brödhistoria</a></li>
+            </ul></li>
+          <li class="dropdown" id="nav-btn2"><button class="dropdown-button">Brödbakningsprocessen</button>
+            <ul class="dropdown-content">
+              <li><a href="./processen.html#sec:oversikt">Översikt</a></li>
+              <li><a href="./processen.html#sec:steg1">Steg 1: Degberedning</a></li>
+              <li><a href="./processen.html#sec:steg2">Steg 2: Knådning</a></li>
+              <li><a href="./processen.html#sec:steg3">Steg 3: Degbearbetning</a></li>
+              <li><a href="./processen.html#sec:steg4">Steg 4: Formning</a></li>
+              <li><a href="./processen.html#sec:steg5">Steg 5: Fermentering</a></li>
+              <li><a href="./processen.html#sec:steg6">Steg 6: Avbakning</a></li>
+              <li><a href="./processen.html#sec:steg7">Steg 7: Nedkylning och förvaring</a></li>
+              <li><a href="./processen.html#sec:ragbrod">Rågbröd</a></li>
+            </ul></li>
+          <li class="dropdown" id="nav-btn3"><button class="dropdown-button">Råvaror</button>
+            <ul class="dropdown-content" id="right-dropdown">
+              <li><a href="./ravaror.html#sec:oversikt">Överblick</a></li>
+              <li><a href="./ravaror.html#sec:fett">Fett</a></li>
+              <li><a href="./ravaror.html#sec:jast">Jäst</a></li>
+              <li><a href="./ravaror.html#sec:salt">Salt</a></li>
+              <li><a href="./ravaror.html#sec:degvatska">Degvätska</a></li>
+              <li><a href="./ravaror.html#sec:sotma">Socker, sirap och honung</a></li>
+              <li><a href="./ravaror.html#sec:smaksattare">Smaksättare</a></li>
+              <li><a href="./ravaror.html#sec:vetemjol">Vetemjöl</a></li>
+              <li><a href="./ravaror.html#sec:fullkornsmjol">Fullkornsmjöl</a></li>
+              <li><a href="./ravaror.html#sec:kulturspannmal">Kulturspanmål</a></li>
+              <li><a href="./ravaror.html#sec:ragmjol">Rågmjöl</a></li>
+              <li><a href="./ravaror.html#sec:korn">Korn</a></li>
+              <li><a href="./ravaror.html#sec:havre">Havre</a></li>
+            </ul></li>
+        </ul>
+      </nav>
+
+      <!-- Huvuddelen av sidan indelat i sektioner -->
+      <main id="recipePage">
+
+        <a href="#" id="toTop"><img src="../media/icons/arrowUp.png" alt="Arrow pointing upward"></a>
+
+
+        <section class="table-container">
+          <img src="#" alt="" id="img">
+          <h2 id="name">Receptets namn</h2>
+          <p id="description">Beskrivning av receptet</p> 
+          <table>
+            <tbody>
+              <tr>
+                <th>Antal bröd:</th>
+                <td id="portions"></td>
+              </tr>
+              <tr>
+                <th>Förberedelsetid:</th>
+                <td id="prep_time"></td>
+              </tr>
+              <tr>
+                <th>Jästid:</th>
+                <td id="rise_time"></td>
+              </tr>
+              <tr>
+                <th>Bakningstid:</th>
+                <td id="bake_time"></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h3>Ingredienser</h3>
+          <div class="table-container">
+            <table>
+              <tbody id="ingredients"></tbody>
+            </table>
+          </div>
+          <h3>Instruktioner</h3>
+          <ol id="instructions"></ol>
+        </section>
+
+        <section>
+          <div id="nutritional-widget"></div>
+        </section>
+
+      </main>
+
+      <!-- footer, likadan på alla sidor -->
+      <footer id="footer">
+        <p>Bröd och brödbakning av Andreas Larsson.</p>
+        <p>En sida skapad som en del av kursen <a href="https://www.uu.se/utbildning/kurs?query=2IS220" target="_blank">Dynamiska webbapplikationer (7.5 hp)</a> vid Uppsala Universitet, sommaren 2025. Delar av innehållet är baserat på innehåll ur kursen <a href="https://lnu.se/kurs/brod-och-brodbakning/distans-deltid-sommar/" target="_blank">Bröd och brödbakning (5 hp)</a> vid Linnéuniversitetet, sommaren 2025.</p> 
+      </footer>
+
+    </div>
+  </body>
+
+  </html>
