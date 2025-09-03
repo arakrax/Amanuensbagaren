@@ -501,10 +501,10 @@ ol li {
 @media(min-width: 1400px)
 {
   #wrapper {
-    width: 70%;
+    width: 50%;
   }
   #toTop {
-    right: 15%;
+    right: 25%;
     width: 4rem;
   }
   header, nav, main, aside, footer {
@@ -513,17 +513,6 @@ ol li {
     margin-right: auto;
   }
 }
-
-@media(min-width: 2560px)
-{
-  #wrapper {
-    width: 60%;
-  }
-  #toTop {
-    right: 20%;
-  }
-}
-
 
 @keyframes imgGallery {
   0% { opacity: 0; -webkit-animation-timing-function: ease-in; }
