@@ -2,7 +2,7 @@
     "id": "lantbrod",
     "name": "Fullkornsbröd",
     "description": "Fullkornsbröd bakat på de fyra sädesslagen.",
-    "img_path": "../media/images/grahamsbrod.jpg",
+    "img_path": "../media/images/lantbrod.jpg",
     "img_alt": "Ett formbakat lantbröd med en gyllenbrun, texturerad skorpa. Två uppskurna skivor ligger bredvid och visar det saftiga inkråmet. Bakom brödet står påsen med 'Kungsörnen Lantbrödsmjöl Fyra Sädesslag'.",
     "portions": "1 limpa",
     "prep_time": "20 minuter",
