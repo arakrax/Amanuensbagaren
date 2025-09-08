@@ -1,0 +1,55 @@
+{
+    "id": "ragbrod",
+    "name": "Rågbröd",
+    "description": "Ett saftigt rågbröd med neutral smak.",
+    "img_path": "../media/images/ragbrod.jpg",
+    "img_alt": "Ett hembakat rågbröd som är delat på mitten, med en uppskuren skiva framför. Bakom brödet står en papperspåse med 'Kungsörnen Finmalet Rågmjöl'.",
+    "portions": "1 limpa",
+    "prep_time": "20 minuter",
+    "rise_time": "6-12 timmar",
+    "bake_time": "40-50 minuter",
+    "ingredients": [
+        {
+            "item": "Rågmjöl fullkorn",
+            "quantity": "500",
+            "unit": "g"
+        },
+        {
+            "item": "Vatten",
+            "quantity": "400",
+            "unit": "g"
+        },
+        {
+            "item": "Jäst färsk",
+            "quantity": "5",
+            "unit": "g"
+        },
+        {
+            "item": "Salt",
+            "quantity": "10",
+            "unit": "g"
+        },
+        {
+            "item": "Rapsolja",
+            "quantity": "40",
+            "unit": "g"
+        },
+        {
+            "item": "Sirap mörk",
+            "quantity": "25",
+            "unit":"g"
+        }
+    ],
+    "instructions": [
+        "Blanda jäst och lite av vattnet i en köksassistent. Rör tills jästen lösts upp.",
+        "Tillsätt olja, salt, sirap och resten av vattnet och rör runt så att saltet löses upp.",
+        "Häll i mjöl och låt assistenten gå på lågt varvtal i 30 minuter.",
+        "Häll upp degen i en smord form. Låt jäsa i rumstemperatur i minst sex timmar.",
+        "Sätt ugnen på 225 °C mot slutet av tiden som brödet jäser.",
+        "Ställ in formen på nedersta falsen i ugnen. Häll 0,5 dl vatten på ugnens botten precis innan du stänger luckan.",
+        "Grädda i cirka 45 minuter, tills brödet har en innertemperatur på 98 °C.",
+        "Låt brödet svalna helt på ett galler. För en mjukare skorpa kan du täcka det med en bakduk medan det svalnar men tidigast fem minuter efter att det kommer ut ur ugnen."
+    ],
+    "kommentar": "Sirapen ger en mörkare färg på brödet, 25g motsvarar en rågad matsked. Det går utmärkt att smaksätta med olika kryddor. Två matskedar av Santa Marias 'Brödkryddor' ger toner av anis och kummin."
+}
+

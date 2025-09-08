@@ -1,22 +1,22 @@
 {
-    "id": "grundrecept_vetedeg",
-    "name": "Grundrecept Vetedeg",
-    "description": "Ett grundrecept för bröd med vetemjöl som bas.",
-    "img_path": "../media/images/vetebrod.jpg",
-    "img_alt": "Ett runt bröd bakat på vetemjöl.",
+    "id": "lantbrod",
+    "name": "Fullkornsbröd",
+    "description": "Fullkornsbröd bakat på de fyra sädesslagen.",
+    "img_path": "../media/images/grahamsbrod.jpg",
+    "img_alt": "Ett formbakat lantbröd med en gyllenbrun, texturerad skorpa. Två uppskurna skivor ligger bredvid och visar det saftiga inkråmet. Bakom brödet står påsen med 'Kungsörnen Lantbrödsmjöl Fyra Sädesslag'.",
     "portions": "1 limpa",
     "prep_time": "20 minuter",
     "rise_time": "6-12 timmar",
     "bake_time": "30-40 minuter",
     "ingredients": [
         {
-            "item": "Vetemjöl bagerivetemjöl",
+            "item": "Mjölblandning vete korn råg havre",
             "quantity": "500",
             "unit": "g"
         },
         {
             "item": "Vatten",
-            "quantity": "250",
+            "quantity": "350",
             "unit": "g"
         },
         {
@@ -31,7 +31,7 @@
         },
         {
             "item": "Rapsolja",
-            "quantity": "20",
+            "quantity": "30",
             "unit": "g"
         }
     ],
@@ -39,13 +39,12 @@
         "Blanda jäst och lite av vattnet i en stor bunke. Rör tills jästen lösts upp.",
         "Tillsätt olja, salt och resten av vattnet och rör runt så att saltet löses upp.",
         "Häll i mjöl och arbeta ihop till en deg. Alla ingredienser ska blandas ordentligt men degen behöver inte knådas.",
-        "Täck bunken med lock eller bakduk och låt degen jäsa i rumstemperatur i minst sex timmar.",
-        "Stjälp upp degen på ett lätt mjölat bakbord. Forma den till en boll eller en avlång limpa och lägg den på en plåt med bakplåtspapper. Det går även bra att lägga den i smord form för att baka ett formbröd. Låt jäsa i 60 minuter.",
-        "Sätt ugnen på 225 °C under tiden som brödet jäser.",
-        "Ställ in plåten/formen på nedersta falsen i ugnen. Häll 0,5 dl vatten på ugnens botten precis innan du stänger luckan.",
+        "Smörj en form med olja och häll över degen i den. Se till att den håller ett jämt lager och når ut i kanterna.",
+        "Täck med bakduk och låt degen jäsa i rumstemperatur i minst sex timmar.",
+        "Sätt ugnen på 225 °C mot slutet av tiden som brödet jäser.",
+        "Ställ in formen på nedersta falsen i ugnen. Häll 0,5 dl vatten på ugnens botten precis innan du stänger luckan.",
         "Grädda i cirka 35 minuter, tills brödet har en innertemperatur på 92–96 °C.",
         "Låt brödet svalna helt på ett galler. För en mjukare skorpa kan du täcka det med en bakduk medan det svalnar men tidigast fem minuter efter att det kommer ut ur ugnen."
-    ],
-    "kommentar": "Ifall brödet gräddas i form kan mängden vatten ökas till 350g för ett saftigare bröd. Används samma mängd vatten när brödet gräddas på plåt behöver degen lindas in i en handduk nedtill för att inte flyta ut under jäsningen."
+    ]
 }
 
