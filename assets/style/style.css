@@ -14,14 +14,13 @@
   --main-background-color: #D9C9B5;
 
   --strong-color: #68371C;
-  --link-hover-color: #CCD3D9;
+  --link-hover-color: #CCD3D9; 
   --dark-element-background: #473E32;
   --light-element-background: #BFB19F;
 
-  --light-text-color: #BFB19F;
-  --dark-text-color: #594E40;
+  --light-text-color: #FFFBE0; 
+  --dark-text-color: #1A0C01;
 }
-
 
 /*---- GENERAL ELEMENT STYLES ----*/
 html {
@@ -108,6 +107,7 @@ td {
 }
 
 nav {
+  z-index: 1;
   position: sticky;
   background-color: var(--dark-element-background);
   font-family: "Old Standard TT", serif;
@@ -397,6 +397,10 @@ ol li {
   z-index: 1;
   float: right;
   visibility: hidden;
+  padding:0;
+  margin:0;
+  border:0;
+  background:None;      
 }
 
 #toTop.show {
@@ -446,7 +450,8 @@ ol li {
     position: relative;
   }
 
-  .dropdown:hover .dropdown-content{
+  .dropdown:hover .dropdown-content, 
+  .dropdown:focus-within .dropdown-content {
     display: flex;
     flex-flow: column nowrap;
     z-index: 1;
